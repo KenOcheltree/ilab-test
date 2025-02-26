@@ -1,0 +1,8 @@
+# v0.24.0
+torch
+psutil==7.0.0
+pillow==10.4.0
+#Limiting TRL to 0.14.0 prevents the Training Error "index out of range"
+trl==0.14.0
+vllm==0.7.2
+instructlab[cuda]==0.24.0
