@@ -1,7 +1,4 @@
 # v0.24.1
-torch
-psutil
-pillow
 #Limiting TRL to 0.14.0 prevents the Training Error "index out of range"
 trl==0.14.0
 vllm==0.7.3
