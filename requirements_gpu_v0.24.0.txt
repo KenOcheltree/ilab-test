@@ -1,6 +1,0 @@
-# v0.24.0
-#Limiting TRL to 0.14.0 prevents the Training Error "index out of range"
-trl==0.14.0
-vllm==0.7.2
-llama_cpp_python[server] -C cmake.args='-DLLAMA_CUDA=on'
-instructlab[cuda]==0.24.0
