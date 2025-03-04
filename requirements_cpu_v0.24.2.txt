@@ -1,5 +1,0 @@
-# v0.24.2
-#Limiting TRL to 0.14.0 prevents the Training Error "index out of range"
-trl==0.14.0
-vllm==0.7.2
-instructlab==0.24.2
