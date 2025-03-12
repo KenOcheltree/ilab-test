@@ -3,4 +3,4 @@
 trl==0.14.0
 vllm==0.7.3
 llama_cpp_python[server]==0.3.6 -C cmake.args='-DGGML_CUDA=on -DGGML_NATIVE=off'
-instructlab[cuda]==0.24.2
+instructlab[cuda]==0.24.3
