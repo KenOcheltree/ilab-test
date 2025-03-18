@@ -1,6 +1,6 @@
 # v0.24.3
 #Limiting TRL to 0.14.0 prevents the Training Error "index out of range"
-numpy==1.26.4
+numpy==1.26.3
 pandas==2.2.1
 torch
 trl==0.14.0
