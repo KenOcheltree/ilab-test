@@ -229,7 +229,7 @@ seed_examples:
 document_outline: |
  Information about agentic AI
 document:
-  repo: https://github.ibm.com/kochel/ilab-references
+  repo: https://github.com/kenocheltree/ilab-references
   commit: 85a098b50e98b5dcaccf3b776798bf20240211a2c
   patterns:
     - agentic-ai.md
