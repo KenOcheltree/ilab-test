@@ -1,11 +1,3 @@
 # v0.25
-#Limiting TRL to 0.14.0 prevents the Training Error "index out of range"
 instructlab==0.25
-ibm-cos-sdk
-ibmcloud
-#datasets>=2.21.0
-#docling>=2.8.3
-#docling_core>=2.17.1
-#wandb>=0.19.5
-#transformers>=4.48.2
-#sentence-transformers>=3.4.1
+ibm-cos-sdk==2.14.0
