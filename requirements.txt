@@ -1,4 +1,3 @@
 # v0.25
 instructlab==0.25
-ibm-cos-sdk==2.14.0
 yamllint==1.37.1
