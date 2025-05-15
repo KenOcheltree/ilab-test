@@ -1,6 +1,4 @@
 rules:
-  comments:
-    require-starting-space: false
   document-start:
     present: false
   line-length:
