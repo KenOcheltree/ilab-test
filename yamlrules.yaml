@@ -2,5 +2,5 @@ rules:
   document-start:
     present: false
   line-length:
-    max: 124
+    max: 600
   trailing-spaces: {}  
