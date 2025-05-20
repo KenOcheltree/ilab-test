@@ -1,2 +1,2 @@
 # ilab-colab
-Instructlab files for running on Colab
+Jupyter notebook for creating Taxonomies for Red Hat AI Instructlab service
