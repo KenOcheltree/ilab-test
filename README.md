@@ -1,5 +1,4 @@
-# Using InstructLab to add knowledge and skills to LLMs in a Jupyter notebook
-### A guide for running InstructLab on Colab with a GPU
+# Jupyter Notebook for Creating Taxonomies for the Red Hat AI Instructlab service.
 ### By Kenneth Ocheltree, Steve Buckley
 
 # Overview
