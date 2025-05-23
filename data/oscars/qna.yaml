@@ -214,4 +214,4 @@ document:
   repo: https://github.com/KenOcheltree/ilab-test
   commit: e50adf9838ac9a1705720d3ec39054e9f6786841
   patterns:
-    - oscars2024_results.md
+    - refs/oscars2024_results.md
