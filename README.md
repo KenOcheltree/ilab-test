@@ -4,11 +4,10 @@
 # Overview
 This Jupyter notebook provides a template for constructing data taxonomies for the [Red Hat AI Instructlab service](https://cloud.ibm.com/instructlab/overview). The InstructLab method consists of three major components:
 * **Taxonomy-driven data curation:**  The taxonomy is a set of training data curated by humans as examples of new knowledge and skills for the model.
-* **Large-scale synthetic data generation:** A teacher model is used to generate new examples based on the seed training data. Since synthetic data can vary in quality, InstructLab adds an automated step to refine the example answers, ensuring they are grounded and safe.
-* **Iterative model alignment tuning:** The model is retrained based on the synthetic data. The InstructLab method includes two tuning phases: knowledge tuning, followed by skill tuning.
+* **Large-scale synthetic data generation:** A teacher model is used to generate new examples based on the seed training data. 
+* **Iterative model alignment tuning:** The model is trained based on the synthetic data. The InstructLab method includes two tuning phases: knowledge tuning, followed by skill tuning.
 
-
-The Jupyter notebook assists in the first step off constructing a taxonomy-based skill and knowledge representation.
+The Jupyter notebook assists in the first component of constructing taxonomy-based skill and knowledge representation.
 
 # Steps
 
@@ -34,11 +33,14 @@ The Jupyter notebook assists in the first step off constructing a taxonomy-based
 
     <img src="./refs/RunningILab.png" width=700>
 
+
 ## Step 2. Run the Notebook
 
-You can either run the remainder of the notebook cell by cell by clicking the <img src="./refs/run-cell.png" width=23> **Run cell** button next to it or by selecting to run the following cell and below.
+You can decide how to run this notebook.
 
-To run all the following cells at once, select the second code cell, shown with the arrow below, without running it, and click **Runtime->Run cell and below**.
+- Run the code cell by cell by clicking the <img src="./refs/run-cell.png" width=23> **Run cell** button next to each cell.
+
+- Run all the following cells at once, select the second code cell, shown with the arrow below, without running it, and click **Runtime->Run cell and below**.
 
 <img src="./refs/SecondCell.png" width=700>
 
@@ -48,14 +50,18 @@ The run does the following for you:
 - Creates a taxonomy with the new data
 - Uploads the taxonomy to the InstructLab service
 
-After the run completes, you can make another run if desired. To do that, go back and either choose a different dataset or place different data in the `/content/ilab/data/your_content_1` folder or the `/content/ilab/data/your_content_2`. Then select the second code cell without running it and click **Runtime** -> **Run cell** and below to run the rest of the notebook. This creates and uploads a new taxonomy with the newly provided data.
 
 # Summary and next steps
-
-This tutorial demonstrated utilizing InstructLab for introducing AI data sets.
 
 Click the **Folder** icon to explore the files in the `ilab` folder. Preloaded QNA files and synthetically generated questions and answers can be found in this directory tree. 
 
 <img src="./refs/ColabMore.png" width=1000>
 
-Try running the notebook with the other example data sets. After running through the InstructLab notebook, create your own QNA files.
+After the run completes, you can make another run if desired. Try running the notebook with the other example data sets or create your own QNA files.
+
+1. Either choose a different data set or place your own data in the `/content/ilab/data/your_content_1` or the `/content/ilab/data/your_content_2` folder.
+
+2. Select the second code cell without running it and click **Runtime** -> **Run cell** and below to run the rest of the notebook. This step creates and uploads a new taxonomy with the newly provided data.
+
+This tutorial demonstrated utilizing InstructLab to introduce AI data sets.
+
