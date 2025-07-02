@@ -1,5 +1,5 @@
 # Create Taxonomies for Red Hat AI Instructlab with a Jupyter Notebook
-### By Kenneth Ocheltree
+### By Ken Ocheltree
 
 # Overview
 This Jupyter notebook provides a template for constructing data taxonomies for the [Red Hat AI Instructlab service](https://cloud.ibm.com/instructlab/overview). The InstructLab method consists of three major components:
